@@ -9,7 +9,7 @@ Project Structure > Artifacts > Add Jar > From modules with dependencies
 - Build > Build Artifacts
 
 ## Step 3 - Start docker:
-**Note:** Change `/Users/oleksandrbondarev/opower/alex-d-bondarev/learn-hadoop` to your project directory
+**Note:** Do not forget to update `<your_path>/learn-hadoop` to your project directory
 
 Run in terminal:
 `docker run \
@@ -21,7 +21,7 @@ Run in terminal:
  -p 7180:7180 \
  -p 80:80 \
  -p 50070:50070 \
- -v /Users/oleksandrbondarev/opower/alex-d-bondarev/learn-hadoop:/home/cloudera \
+ -v <your_path>/learn-hadoop:/home/cloudera \
  -w /home/cloudera \
  cloudera/quickstart \
  /usr/bin/docker-quickstart`
