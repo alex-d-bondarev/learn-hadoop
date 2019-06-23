@@ -1,5 +1,7 @@
 # learn-hadoop
 
+You can copy and reuse code [![MIT License](http://img.shields.io/badge/license-MIT-green.svg)](https://github.com/selenide/selenide/blob/master/LICENSE)
+
 ## Step 1 - Set up IDE jar:
 Project Structure > Artifacts > Add Jar > From modules with dependencies
 **Note:** Do not forget to add main class
